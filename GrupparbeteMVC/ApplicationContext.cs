@@ -10,6 +10,8 @@ namespace GrupparbeteMVC
         {
 
         }
+
+        public DbSet<Ticket> Tickets { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Tag> Tags { get; set; }
