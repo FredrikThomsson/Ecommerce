@@ -1,0 +1,35 @@
+﻿@model Grupparbete.Models.Ticket
+
+
+<h1>Information about the ticket</h1>
+
+
+
+Titel: @Html.DisplayFor(model => model.Title)
+<br />
+
+Beskrivning: @Html.DisplayFor(model => model.Description)
+<br />
+
+Skapad av: @Html.DisplayFor(model => model.Creator)
+
+<br />
+<br />
+
+Ägarens svar: @Html.DisplayFor(model => model.Reply)
+<br />
+<br />
+
+
+
+
+<h1>Reply to Ticket</h1>
+
+<form method="post">
+    <div>
+        <label for="reply">Reply:</label>
+        <textarea id="reply" name="reply"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+</form>
+

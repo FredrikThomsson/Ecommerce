@@ -1,0 +1,21 @@
+﻿@model Grupparbete.Models.Ticket
+
+<h1> Ticket @Html.DisplayFor(model => model.Id) </h1>
+<div> Här finns information om ticket @Html.DisplayFor(model => model.Id). </div>
+@Html.HiddenFor(model => model.Id)
+<br />
+
+Titel: @Html.DisplayFor(model => model.Title)
+<br />
+
+Beskrivning: @Html.DisplayFor(model => model.Description)
+<br />
+
+Skapad av: @Html.DisplayFor(model => model.Creator)
+<br />
+<br />
+<br />
+
+
+
+Ägarens svar: @Html.DisplayFor(model => model.Reply)

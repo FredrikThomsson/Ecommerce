@@ -1,0 +1,22 @@
+﻿@model Grupparbete.Models.Ticket
+
+<h1> Ticket @Html.DisplayFor(model => model.Id) </h1>
+
+<div> Här finns information om ticket @Html.DisplayFor(model => model.Id). </div>
+
+Id: @Html.DisplayFor(model => model.Id)
+<br />
+
+Titel: @Html.DisplayFor(model => model.Title)
+<br />
+
+Beskrivning: @Html.DisplayFor(model => model.Description)
+<br />
+
+Skapad av: @Html.DisplayFor(model => model.Creator)
+
+<br />
+<br />
+<h4> Vill du verkligen ta bort den här ticketen? </h4>
+<a asp-action="DeleteConfirm" asp-route-id="@Model.Id">Ta bort</a><br />
+<a asp-action="Index">Ångra</a>
