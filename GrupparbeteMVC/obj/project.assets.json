@@ -3509,19 +3509,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fredr\\.nuget\\packages\\": {}
+    "C:\\Users\\DanHu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fredr\\Documents\\Grupparbete E-handel\\Grupparbetet\\GrupparbeteMVC\\GrupparbeteMVC.csproj",
+      "projectUniqueName": "C:\\Users\\DanHu\\Source\\Repos\\Ecommerce\\GrupparbeteMVC\\GrupparbeteMVC.csproj",
       "projectName": "GrupparbeteMVC",
-      "projectPath": "C:\\Users\\fredr\\Documents\\Grupparbete E-handel\\Grupparbetet\\GrupparbeteMVC\\GrupparbeteMVC.csproj",
-      "packagesPath": "C:\\Users\\fredr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fredr\\Documents\\Grupparbete E-handel\\Grupparbetet\\GrupparbeteMVC\\obj\\",
+      "projectPath": "C:\\Users\\DanHu\\Source\\Repos\\Ecommerce\\GrupparbeteMVC\\GrupparbeteMVC.csproj",
+      "packagesPath": "C:\\Users\\DanHu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DanHu\\Source\\Repos\\Ecommerce\\GrupparbeteMVC\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\fredr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DanHu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3577,7 +3582,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

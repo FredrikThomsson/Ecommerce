@@ -1,0 +1,54 @@
+﻿@using GrupparbeteMVC.Models;
+@model List<Ticket>
+
+<h1>Dagens Supportärenden</h1>
+
+<br />
+
+<h4><a asp-action="Create">Skapa en ticket</a></h4>
+
+<br />
+
+<div>----------------------------------</div>
+
+@foreach (Ticket item in Model)
+{
+        <span> @Html.LabelFor(modelItem => item.Id) </span>
+    @Html.DisplayFor(modelItem => item.Id)
+
+        <br />
+
+        <span>Titel:</span>
+        <span> @Html.DisplayFor(modelItem => item.Title) </span>
+
+        <br />
+
+        <span>Beskrivning:</span>
+        <span>@Html.DisplayFor(modelItem => item.Description)</span>
+
+        <br />
+
+        <span>Skapare:</span>
+        <span>@Html.DisplayFor(modelItem => item.Creator)</span>
+
+        <br />
+
+        <a asp-action="Details" asp-route-id="@item.Id">Visa ticket</a>
+
+        <br />
+
+        <a asp-action="Edit" asp-route-id="@item.Id">Redigera ticket</a>
+
+        <br />
+
+        <a asp-action="Delete" asp-route-id="@item.Id">Ta bort ticket</a>
+
+        <br />
+
+        <a asp-action="Reply" asp-route-id="@item.Id">Svara på ticket</a>
+
+        <br />
+
+
+        <div>---------------------------------------------</div>
+}

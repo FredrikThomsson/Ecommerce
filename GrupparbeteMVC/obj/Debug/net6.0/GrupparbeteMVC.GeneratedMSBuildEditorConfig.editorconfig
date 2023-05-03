@@ -9,81 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GrupparbeteMVC
 build_property.RootNamespace = GrupparbeteMVC
-build_property.ProjectDir = C:\Users\fredr\Documents\Grupparbete E-handel\Grupparbetet\GrupparbeteMVC\
+build_property.ProjectDir = C:\Users\DanHu\source\repos\Ecommerce\GrupparbeteMVC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\fredr\Documents\Grupparbete E-handel\Grupparbetet\GrupparbeteMVC
+build_property.MSBuildProjectDirectory = C:\Users\DanHu\source\repos\Ecommerce\GrupparbeteMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Carts/Delete.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Carts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Carts/DeleteAllConfirm.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Carts/DeleteAllConfirm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlQWxsQ29uZmlybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Carts/Index.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Carts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Home/Index.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Home/Privacy.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Orders/Checkout.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Orders/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Orders/CheckoutError.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Orders/CheckoutError.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENoZWNrb3V0RXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Orders/Details.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Orders/Index.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Products/Details.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Products/DetailsDollarPrice.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Products/DetailsDollarPrice.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlsc0RvbGxhclByaWNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Products/Index.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Products/IndexDollarPrice.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Products/IndexDollarPrice.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXhEb2xsYXJQcmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Shared/Error.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/_ViewImports.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Tickets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Tickets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Tickets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Tickets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Tickets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Tickets/Reply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xSZXBseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/_ViewStart.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/fredr/Documents/Grupparbete E-handel/Grupparbetet/GrupparbeteMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/DanHu/source/repos/Ecommerce/GrupparbeteMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4ypcx0mgw9
