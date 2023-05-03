@@ -51,11 +51,7 @@ namespace Grupparbete.Controllers
         {
             Cart CurrentCart = Context.Carts.Include(cart => cart.CartItems).ThenInclude(cartItem => cartItem.Product).FirstOrDefault(cart => cart.Id == 1);
             return View(CurrentCart);
-            /*
-            Cart Cart = Context.Carts.Include(x => x.CartItems).FirstOrDefault(x => x.Id == 1);
 
-            return View(Cart);
-            */
         }
 
         public IActionResult Delete(int Id)
@@ -106,8 +102,8 @@ namespace Grupparbete.Controllers
 
         public IActionResult DeleteAllConfirm()
         {
-            List<CartItem> MyItems = Context.CartItems.ToList();
-            return View(MyItems);
+            Cart CurrentCart = Context.Carts.Include(cart => cart.CartItems).ThenInclude(cartItem => cartItem.Product).FirstOrDefault(cart => cart.Id == 1);
+            return View(CurrentCart);
         }
 
         public IActionResult AddOne(int Id)

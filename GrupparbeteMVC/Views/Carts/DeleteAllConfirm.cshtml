@@ -1,23 +1,48 @@
-﻿@model List<CartItem>
-<h1> Empty the cart </h1>
+﻿@model GrupparbeteMVC.Models.Cart
 
-@foreach (CartItem Item in Model)
-{
+<div id="cart-container">
+    <h1>Cart</h1>
 
-
-    @Html.DisplayFor(modelItem => Item.ProductId)
-    <br />
-    @Html.DisplayFor(modelItem => Item.CartItemTotal) <span>kr</span>
-    <br />
-    <span> Antal: </span> @Html.DisplayFor(modelItem => Item.Quantity)
     <br />
 
-    <div> ----------------------------------- </div>
-}
+
+    @if (Model.CartTotal > 0)
+    {
+        <h2>Products</h2>
+
+        @foreach (CartItem Item in Model.CartItems)
+        {
+            <div class="cart-item">
+                <div class="product-name">
+                    @Html.DisplayFor(modelItem => Item.Product.Name)
+                </div>
+                <div class="cart-item-total">
+                    @Html.DisplayFor(modelItem => Item.CartItemTotal) <span>kr</span>
+                </div>
+                <div class="cart-item-quantity">
+                    <span>Quantity:</span>
+                    <a class="remove-item" asp-action="RemoveOne" asp-route-id="@Item.Id">-</a>
+                    @Html.DisplayFor(modelItem => Item.Quantity)
+                    <a class="add-item" asp-action="AddOne" asp-route-id="@Item.Id">+</a>
+                </div>
+                <div class="cart-item-remove">
+                    <a class="remove-item" asp-action="Delete" asp-route-id="@Item.Id">Remove</a>
+                </div>
+            </div>
+
+            <hr class="divider">
+        }
+
+        <br />
+        <div class="cart-actions">
 <br />
 Are you sure you want to empty the cart?
 <br />
 <a asp-action="DeleteAll"> Empty the cart </a>
 <br />
 <a asp-action="Index"> Undo </a>
+        </div>
+    }
+    </div>
+
 

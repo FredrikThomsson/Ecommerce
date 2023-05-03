@@ -1,17 +1,14 @@
 ﻿@model List<Order>
-<h1>List of all the orders </h1>
-
-<br />
+<h1 id="orders-heading">List of all the orders</h1>
 
 @foreach (Order Item in Model)
 {
+<div class="order-wrapper">
+<span class="order-label">Order Nr:</span>
+@Html.DisplayFor(modelItem => Item.OrderId)
+<a id="order-details-link" class="details-link" asp-action="Details" asp-route-id="@Item.OrderId">View Details</a>
 
-            <span> Order Nr: </span>
-    @Html.DisplayFor(modelItem => Item.OrderId)
+    <p class="order-separator">------------------</p>
 
-
-
-        <a asp-action="Details" asp-route-id="@Item.OrderId">View Details</a>
-        <p> ------------------ </p>
-
+</div>
 }

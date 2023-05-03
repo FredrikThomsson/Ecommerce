@@ -254,3 +254,31 @@ body {
     padding: 20px;
     margin: 20px;
 }
+.main-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.order-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.order-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.details-link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.order-separator {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: gray;
+}
