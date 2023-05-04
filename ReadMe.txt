@@ -8,10 +8,12 @@ Tickets controller, Tickets view files
 Products controller, Products view files
 CSS
 
-Använd följande SQL kod i Microsoft SQL Server Mangement Studio:
+1. Skriv update-database i package manager console
 
-CREATE DATABASE E-Handel-MVC
-USE E-Handel-MVC
+2. Använd följande SQL kod i Microsoft SQL Server Mangement Studio:
+
+
+USE GrupparbeteMVC
 
 
 INSERT INTO dbo.Carts (Date, CartTotal) 
@@ -87,7 +89,7 @@ VALUES
 (1, 1, 1), (1,2,2),
 (2, 3, 1), (2, 4, 1);
 
-INSERT INTO dbo.Tickets (Title, Description, Creator, Reply)
+INSERT INTO dbo.Tickets (Title, Description, Creator)
 VALUES
 ('Good pizza', 'Very good taste', 'John'),
 ('Bad pizza', 'Very bad taste', 'Jane');
