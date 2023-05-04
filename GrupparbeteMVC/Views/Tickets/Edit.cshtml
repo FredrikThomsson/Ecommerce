@@ -1,12 +1,12 @@
 ﻿@model GrupparbeteMVC.Models.Ticket
 
-<hi> Redigera en ticket </hi>
+<hi> Edit ticket </hi>
 <br />
 <br />
 
 <form asp-action="Edit" method="POST">
-    Titel: <br /> <input type="text" name="Title" value="@Html.DisplayFor(model => model.Title)" /><br /> <br />
-    Beskrivning: <br /> <input type="text" name="Description" value="@Html.DisplayFor(model => model.Description)" /><br /> <br />
-    Skapad av: <br /> <input type="text" name="Creator" value="@Html.DisplayFor(model => model.Creator)" /><br /> <br />
-    <input type="submit" value="Redigera ticket" />
+    Title: <br /> <input type="text" name="Title" value="@Html.DisplayFor(model => model.Title)" /><br /> <br />
+    Text: <br /> <input type="text" name="Description" value="@Html.DisplayFor(model => model.Description)" /><br /> <br />
+   Author: <br /> <input type="text" name="Creator" value="@Html.DisplayFor(model => model.Creator)" /><br /> <br />
+    <input type="submit" value="Submit changes" />
 </form>

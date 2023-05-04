@@ -1,11 +1,11 @@
 ﻿@using GrupparbeteMVC.Models;
 @model List<Ticket>
 
-<h1>Dagens Supportärenden</h1>
+<h1>Ticket support</h1>
 
 <br />
 
-<h4><a asp-action="Create">Skapa en ticket</a></h4>
+<h4><a asp-action="Create">Create a new ticket</a></h4>
 
 <br />
 
@@ -18,34 +18,34 @@
 
         <br />
 
-        <span>Titel:</span>
+        <span>Title:</span>
         <span> @Html.DisplayFor(modelItem => item.Title) </span>
 
         <br />
 
-        <span>Beskrivning:</span>
+        <span>Text:</span>
         <span>@Html.DisplayFor(modelItem => item.Description)</span>
 
         <br />
 
-        <span>Skapare:</span>
+        <span>Author:</span>
         <span>@Html.DisplayFor(modelItem => item.Creator)</span>
 
         <br />
 
-        <a asp-action="Details" asp-route-id="@item.Id">Visa ticket</a>
+        <a asp-action="Details" asp-route-id="@item.Id">Show ticket</a>
 
         <br />
 
-        <a asp-action="Edit" asp-route-id="@item.Id">Redigera ticket</a>
+        <a asp-action="Edit" asp-route-id="@item.Id">Edit ticket</a>
 
         <br />
 
-        <a asp-action="Delete" asp-route-id="@item.Id">Ta bort ticket</a>
+        <a asp-action="Delete" asp-route-id="@item.Id">Remove ticket</a>
 
         <br />
 
-        <a asp-action="Reply" asp-route-id="@item.Id">Svara på ticket</a>
+        <a asp-action="Reply" asp-route-id="@item.Id">Respond to ticket</a>
 
         <br />
 
