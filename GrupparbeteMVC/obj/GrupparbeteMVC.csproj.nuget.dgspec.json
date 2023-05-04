@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DanHu\\source\\repos\\Ecommerce\\GrupparbeteMVC\\GrupparbeteMVC.csproj": {}
+    "C:\\Users\\fredr\\Source\\Repos\\Ecommerceabc\\GrupparbeteMVC\\GrupparbeteMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DanHu\\source\\repos\\Ecommerce\\GrupparbeteMVC\\GrupparbeteMVC.csproj": {
+    "C:\\Users\\fredr\\Source\\Repos\\Ecommerceabc\\GrupparbeteMVC\\GrupparbeteMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DanHu\\source\\repos\\Ecommerce\\GrupparbeteMVC\\GrupparbeteMVC.csproj",
+        "projectUniqueName": "C:\\Users\\fredr\\Source\\Repos\\Ecommerceabc\\GrupparbeteMVC\\GrupparbeteMVC.csproj",
         "projectName": "GrupparbeteMVC",
-        "projectPath": "C:\\Users\\DanHu\\source\\repos\\Ecommerce\\GrupparbeteMVC\\GrupparbeteMVC.csproj",
-        "packagesPath": "C:\\Users\\DanHu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DanHu\\source\\repos\\Ecommerce\\GrupparbeteMVC\\obj\\",
+        "projectPath": "C:\\Users\\fredr\\Source\\Repos\\Ecommerceabc\\GrupparbeteMVC\\GrupparbeteMVC.csproj",
+        "packagesPath": "C:\\Users\\fredr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fredr\\Source\\Repos\\Ecommerceabc\\GrupparbeteMVC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DanHu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\fredr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -17,7 +17,7 @@ namespace Grupparbete.Controllers
 
         public IActionResult Index()
         {
-            // varför inkluderar jag products här?
+
             List<Order> MyOrders = Context.Orders.Include(o => o.Products).ToList();
             return View(MyOrders);
 

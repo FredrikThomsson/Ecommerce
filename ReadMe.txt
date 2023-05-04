@@ -10,8 +10,8 @@ CSS
 
 Använd följande SQL kod i Microsoft SQL Server Mangement Studio:
 
-CREATE DATABASE xxx
-USE xxx
+CREATE DATABASE E-Handel-MVC
+USE E-Handel-MVC
 
 
 INSERT INTO dbo.Carts (Date, CartTotal) 
